@@ -1,0 +1,8 @@
+[Unit]
+Description=One Invest Main Logic Server
+
+[Service]
+ExecStart=/home/temp/oi_main_logic.sh
+
+[Install]
+WantedBy=multi-user.target

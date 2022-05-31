@@ -1,0 +1,8 @@
+[Unit]
+Description=One Invest Api Gateway Server
+
+[Service]
+ExecStart=/home/temp/oi_api_gateway.sh
+
+[Install]
+WantedBy=multi-user.target

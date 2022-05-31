@@ -1,0 +1,8 @@
+[Unit]
+Description=One Invest Notification Server 8763
+
+[Service]
+ExecStart=/home/temp/oi_notification_8763.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=Test JPA  Config Server
+
+[Service]
+ExecStart=/home/temp/oi_test_jpa.sh
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+[Unit]
+Description=One Invest Service Registry Server
+
+[Service]
+ExecStart=/home/temp/oi_service_registry.sh
+
+[Install]
+WantedBy=multi-user.target
